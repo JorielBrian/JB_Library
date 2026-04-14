@@ -1,7 +1,7 @@
 import BookList from "@/components/BookList"
 import { sampleBoooks } from "@/constants"
 
-export default function LibraryPage() {
+const LibraryPage = () => {
   return (
     <main className="space-y-8 px-6 py-8">
       <section className="rounded-4xl border border-amber-400/40 bg-slate-950/80 p-8 shadow-2xl shadow-black/20">
@@ -17,3 +17,5 @@ export default function LibraryPage() {
     </main>
   )
 }
+
+export default LibraryPage;
