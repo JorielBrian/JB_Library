@@ -1,7 +1,7 @@
 import { ReactNode } from 'react'
 import Header from '@/components/Header'
 
-function Layout({ children }: { children: ReactNode }) {
+const Layout = ({ children }: { children: ReactNode }) => {
   return (
     <main className=''>
         <Header />

@@ -2,7 +2,7 @@
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 
-function Header() {
+const Header = () => {
   const pathname = usePathname()
   const links = [
     { href: "/", label: "Home" },
@@ -42,4 +42,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Header;

@@ -2,7 +2,7 @@ import BookList from "@/components/BookList"
 import BookOverview from "@/components/BookOverview"
 import { sampleBoooks } from "@/constants"
 
-export default function Home() {
+const Home = () => {
   const featuredBook = sampleBoooks[0]
 
   return (
@@ -25,3 +25,5 @@ export default function Home() {
     </main>
   )
 }
+
+export default Home;
