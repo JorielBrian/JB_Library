@@ -1,4 +1,4 @@
-export default function AboutPage() {
+const AboutPage = () => {
   return (
     <main className="px-6 py-8">
       <section className="rounded-4xl border border-amber-400/40 bg-slate-950/80 p-8 shadow-2xl shadow-black/20">
@@ -18,3 +18,5 @@ export default function AboutPage() {
     </main>
   )
 }
+
+export default AboutPage;
